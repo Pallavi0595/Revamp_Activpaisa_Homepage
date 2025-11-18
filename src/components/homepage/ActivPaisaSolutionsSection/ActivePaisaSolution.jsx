@@ -22,8 +22,6 @@ export default function ActivePaisaSolution() {
       >
         The ActivPaisa Solution
       </h2>
-
-      {/* Paragraph */}
       <p
         style={{
           color: "var(--ui-color-on-surface-on-neutral-00---2, #6B7280)",
@@ -82,7 +80,6 @@ export default function ActivePaisaSolution() {
         >
           How It Works
         </h2>
-
         <p
           style={{
             color: "var(--ui-color-on-surface-on-neutral-00---2, #6B7280)",
@@ -101,7 +98,6 @@ export default function ActivePaisaSolution() {
           Our streamlined 3-step process gets you from application to approval
           faster than ever before
         </p>
-
         <StepsList />
       </div>
     </div>

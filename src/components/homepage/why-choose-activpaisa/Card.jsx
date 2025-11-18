@@ -16,8 +16,6 @@ const Card = ({ title, description, icon }) => {
     >
       {/* inner box */}
       <div className="w-full h-[136px]  space-y-[24px] ">
-        {/* icon */}
-
         <Icon />
 
         {/* title */}

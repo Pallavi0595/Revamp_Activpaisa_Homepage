@@ -26,7 +26,6 @@ const StillHaveQuestion = () => {
 
         <div className=" flex justify-center gap-[18px] w-full">
           <Button label="Check Free Offers" size="small" />
-          <BaseButton label="schedule call" size="small" />
         </div>
       </div>
     </div>

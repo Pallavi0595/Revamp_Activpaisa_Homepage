@@ -22,5 +22,14 @@
 body {
   background: white;
   color: var(--foreground);
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  /* overflow-y: hidden; */
+  overflow: auto;
+  /* scrollbar-width: none; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

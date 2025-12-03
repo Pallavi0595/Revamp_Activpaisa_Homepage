@@ -1,7 +1,5 @@
 .achievements-heading {
-  color: var(--ui-color-on-surface-on-gradient---1, #fff);
-
-  /* Correct Typography Tokens */
+  color: var(--ui-color-on-surface-on-gradient-1, #fff);
   font-family:
     var(--typography-Heading-H3-inter-font-family, Inter), sans-serif;
   font-size: var(--typography-Heading-H3-large-size, 32px);
@@ -10,22 +8,24 @@
   letter-spacing: var(--typography-Heading-H3-large-letter-spacing, -0.64px);
   margin-bottom: 8px;
 }
-
-/* ---------------------------------------
-   Full Width Background Section
----------------------------------------- */
 .section-hero {
-  display: flex;
-  /* width: 1440px; */
   width: 100%;
-  padding: 97px 0px;
+  padding: 97px 0;
+  margin-top: 72px;
+  background: linear-gradient(45deg, #bd8668 0%, #5d51af 50%, #3437c8 100%);
+  display: flex;
+  justify-content: center;
+}
+.section-hero .content-wrapper {
+  width: 100%;
+  max-width: 1440px; /* content remains centered */
+  padding: 0 20px; /* left-right padding */
+  margin: 0 auto;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* gap: 10px; */
-  margin-top: 72px;
-
-  background: linear-gradient(45deg, #bd8668 0%, #5d51af 50%, #3437c8 100%);
 }
+
 /* ---------------------------------------
    Achievements Subtext Paragraph
 ---------------------------------------- */

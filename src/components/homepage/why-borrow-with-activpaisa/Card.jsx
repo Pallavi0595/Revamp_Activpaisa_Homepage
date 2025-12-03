@@ -1,4 +1,4 @@
-import Icon from "@/components/UI/Icons/Icon";
+import Icon from "@/components/ui/Icons/Icon";
 import React from "react";
 
 const Card = ({ title, description, icon }) => {

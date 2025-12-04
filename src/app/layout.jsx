@@ -19,7 +19,7 @@ export const metadata = {
   title: "ActivPaisa",
   description: "Get Loans From ActivPaisa at Best Rates",
   icons: {
-    icon: "/Icons/favicon.ico", // main favicon
+    icon: "/Icons/favicon-32x32.png", // main favicon
     apple: "/Icons/favicon-apple.png", // optional Apple touch icon
   },
 };

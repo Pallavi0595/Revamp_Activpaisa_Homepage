@@ -213,7 +213,7 @@ export default function BecomeActivPaisaLoan() {
                 width: "161px",
                 // padding: "10px 16px", // fallback direct value
                 padding:
-                  "var(--spacing-sp-10, 10px) var(--spacing-sp-16, 16px)",
+                  // "var(--spacing-sp-10, 10px) var(--spacing-sp-16, 16px)",
 
                 justifyContent: "center",
                 alignItems: "center",

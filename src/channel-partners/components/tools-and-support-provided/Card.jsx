@@ -4,7 +4,7 @@ import React from "react";
 const Card = ({ title, description, icon }) => {
   return (
     <div
-      className="w-[406px] h-[232px] flex flex-col justify-center items-center"
+      className="w-[406px] h-[200px] flex flex-col justify-center items-center"
       style={{
         padding: "24px",
         borderRadius: "24px",

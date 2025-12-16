@@ -1,7 +1,11 @@
+"use client";
+
 import PartnerNavbar from "@/channel-partners/components/Navbar/PartnerNavbar";
 import BecomeActivPaisaLoan from "@/channel-partners/components/HeroSection/BecomeActivPaisaLoan";
 import WhoLoanAdvisor from "@/channel-partners/components/WhoLoanAdvisor/WhoLoanAdvisor";
+// import ExploreRangeCreditProducts from "@/channel-partners/components/ExploreRangeCreditProducts/ExploreRangeCreditProducts";
 import ExploreRangeCreditProducts from "@/channel-partners/components/ExploreRangeCreditProducts/ExploreRangeCreditProducts";
+
 import LenderScroll from "@/channel-partners/components/lenders-scroll/LenderScroll";
 import WhyActivpaisa from "@/channel-partners/components/why-activpaisa/WhyActivpaisa";
 import ToolsAndSupport from "@/channel-partners/components/tools-and-support-provided/ToolsAndSupport";

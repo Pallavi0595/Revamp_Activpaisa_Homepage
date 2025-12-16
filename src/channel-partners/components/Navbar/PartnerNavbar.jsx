@@ -11,12 +11,13 @@ export default function PartnerNavbar() {
         {/* LEFT SECTION */}
         <div className={styles.leftWrapper}>
           {/* Logo + Divider + Partners */}
-          <div className={styles.logoSection}>
+          <Link href="/" className={styles.logoSection}>
             <Image
               src="/Brand/logo.svg"
               alt="ActivPaisa Logo"
-              width={130}
-              height={30}
+              width={138}
+              height={28}
+              priority
             />
 
             <Image
@@ -28,7 +29,7 @@ export default function PartnerNavbar() {
             />
 
             <span className={styles.partnerText}>Partners</span>
-          </div>
+          </Link>
 
           {/* MENU ITEMS */}
           <div className={styles.menu}>

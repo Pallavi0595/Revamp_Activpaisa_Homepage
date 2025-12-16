@@ -19,7 +19,7 @@ export default function ArrowButton({
         justifyContent: "center",
         alignItems: "center",
         // border: "1px solid #E5E7EB",
-        boxShadow: "0 2px 6px rgba(0,0,0,0.12)",
+        // boxShadow: "0 2px 6px rgba(0,0,0,0.12)",
         cursor: disabled ? "not-allowed" : "pointer",
         transition: "all 0.2s ease-in-out",
       }}

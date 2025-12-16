@@ -1,0 +1,114 @@
+/* ============================================
+   🎨 Design Tokens
+   ============================================ */
+:root {
+  /* Spacing Tokens */
+  --spacing-sp-6: 6px;
+  --spacing-sp-8: 8px;
+  --spacing-sp-10: 10px;
+  --spacing-sp-12: 12px;
+  --spacing-sp-16: 16px;
+  --spacing-sp-20: 20px;
+
+  /* Radius Token */
+  --corner-radius-2xsmall: 8px;
+
+  /* Color Tokens */
+  --brand-primary-30: #4c2399;
+  --brand-primary-40: #3e1d80;
+
+  /* Shadow */
+  --shadow-4: rgba(17, 24, 39, 0.04);
+}
+
+/* ============================================
+   Base Button
+   ============================================ */
+.button-base00 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+
+  /* border: none; */
+  /* border-radius: var(--corner-radius-2xsmall); */
+  border-radius: var(--corner-radius-2xsmall, 8px);
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+
+  gap: var(--spacing-sp-6);
+
+  box-shadow:
+    0 1px 2px var(--shadow-4),
+    0 1px 2px var(--shadow-4);
+}
+
+.button-base00:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ============================================
+   Primary Variant
+   ============================================ */
+.button-primary {
+  background: var(--brand-primary-30);
+}
+
+.button-primary:hover {
+  background: var(--brand-primary-40);
+}
+.button-small {
+  /* width: 154px; */
+  height: 36px;
+  border-radius: var(--corner-radius-2xsmall, 8px);
+  background: var(--ui-color-surface-container-brand-primary-30, #4c2399);
+
+  /* Drop Shadow/XSmall */
+  box-shadow:
+    0 1px 2px 0 var(--effects-shadow-4, rgba(17, 24, 39, 0.04)),
+    0 1px 2px 0 var(--effects-shadow-4, rgba(17, 24, 39, 0.04));
+  /* font-size: 14px; */
+  gap: var(--spacing-sp-6);
+
+  display: flex;
+  padding: var(--spacing-sp-10, 10px) var(--spacing-sp-16, 16px);
+  justify-content: center;
+  align-items: center;
+  color: var(--UI-Color-On-Surface-on-primary-00-1, #fff);
+  text-align: center;
+
+  /* Label/L-2/Medium */
+  font-family: var(--typography-label-inter-font-family, Inter);
+  font-size: var(--typography-label-l-2-size, 14px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--typography-label-l-2-line-height, 16px); /* 114.286% */
+  letter-spacing: var(--typography-label-letter-spacing, 0);
+}
+
+.button-large {
+  width: 171px;
+  height: 44px;
+  padding: var(--spacing-sp-10) var(--spacing-sp-16);
+  gap: var(--spacing-sp-8);
+  border-radius: var(--corner-radius-2xsmall, 8px);
+  background: var(--ui-color-surface-container-brand-primary-30, #4c2399);
+
+  /* Drop Shadow/XSmall */
+  box-shadow:
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04)),
+    0 1px 2px 0 var(--Effects-shadow-4, rgba(17, 24, 39, 0.04));
+  color: var(--UI-Color-On-Surface-on-primary-00---1, #fff);
+  text-align: center;
+
+  /* Label/L-1/Medium */
+  font-family: var(--typography-label-inter-font-family, Inter);
+  font-size: calc(var(--typogrraphy-label-l-1-size) * 1px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--typography-label-l-1-line-height, 18px); /* 112.5% */
+  letter-spacing: var(--typography-label-letter-spacing, 0);
+}

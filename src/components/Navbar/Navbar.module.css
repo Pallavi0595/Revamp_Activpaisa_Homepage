@@ -1,0 +1,97 @@
+.navbar {
+  height: 72px;
+  width: 100%; /* changed from 1440px to 100% for responsiveness */
+  max-width: 1440px; /* keep original max width */
+  /* padding: 16px 16px; */
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--ui-color-surface-container-neutral-neutral-00);
+  /* border-bottom: 1px solid var(--ui-color-border-neutral-10, #e5e7eb); */
+  overflow: hidden; /* prevent scrollbars */
+  box-sizing: border-box;
+  white-space: nowrap;
+  /* gap: 125px; */
+}
+
+/* 🔵 Left Side */
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* 🔵 Navigation Links */
+.navLinks {
+  display: flex;
+  align-items: center;
+  /* gap: 8px; */
+}
+.navItem {
+  color: var(--ui-color-on-surface-on-neutral-00-1, #374151);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.navHighlight {
+  color: var(--ui-color-states-highlighted-primary-1);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: var(--ui-color-state-highlighted-hgt-neutral-light-10-p10, #4c2399);
+
+  /* label / l-2 / semibold */
+  /* font-family :  var(--typogrraphy-label-inter-font-family, inter),
+    font-size: "calc(var(--typogrraphy-label-l-2-size, 14px) * 1px)",
+    font-style: "normal",
+    font-weight: 600,
+    line-height: "var(--typogrraphy-label-l-2-line-height, 16px)",
+    letter-spacing: "var(--typogrraphy-label-letter-spacing, 0)" */
+}
+
+.arrowIcon {
+  margin-left: 4px;
+}
+
+/* 🔵 Right Side Buttons */
+.buttonGroup {
+  display: flex;
+  gap: 18px;
+}
+
+/* 🔵 Media Query: 1920px → 1440px */
+@media (max-width: 1920px) and (min-width: 1440px) {
+  .navbar {
+    width: 100%; /* keep responsive */
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+
+  .logoSection {
+    gap: 32px;
+  }
+
+  .navLinks span {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .buttonGroup {
+    gap: 16px;
+  }
+}
+
+/* 🔵 Optional: Body reset to avoid vertical scrollbars */
+:global(html),
+:global(body) {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* horizontal scroll gone */
+}

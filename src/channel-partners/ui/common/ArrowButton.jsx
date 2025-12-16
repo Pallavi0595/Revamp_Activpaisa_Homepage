@@ -11,8 +11,13 @@ export default function ArrowButton({
       disabled={disabled}
       onClick={onClick}
       style={{
+<<<<<<< HEAD
         width: "36px",
         height: "36px",
+=======
+        width: "40px",
+        height: "40px",
+>>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
         borderRadius: "50%",
         background: disabled ? "#F3F4F6" : "#E5E7EB",
         display: "flex",

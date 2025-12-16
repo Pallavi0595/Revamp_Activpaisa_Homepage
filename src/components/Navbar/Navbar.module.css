@@ -44,10 +44,17 @@
   font-size: 14px;
   font-weight: 600;
   padding: 8px 16px;
+<<<<<<< HEAD
   color: var(--ui-color-state-highlighted-hgt-neutral-light-10-p10, #4c2399);
 
   /* label / l-2 / semibold */
   /* font-family :  var(--typogrraphy-label-inter-font-family, inter),
+=======
+  color: var(--ui-color-state-highlighted-hgt-neutral-light-10-p10, #4c2399),
+
+    /* label / l-2 / semibold */
+    /* font-family :  var(--typogrraphy-label-inter-font-family, inter),
+>>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
     font-size: "calc(var(--typogrraphy-label-l-2-size, 14px) * 1px)",
     font-style: "normal",
     font-weight: 600,
@@ -69,8 +76,13 @@
 @media (max-width: 1920px) and (min-width: 1440px) {
   .navbar {
     width: 100%; /* keep responsive */
+<<<<<<< HEAD
     padding-left: 32px;
     padding-right: 32px;
+=======
+    padding-left: 48px;
+    padding-right: 48px;
+>>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
     box-sizing: border-box;
   }
 

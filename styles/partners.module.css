@@ -13,7 +13,11 @@
   width: 100%;
   margin: 0 auto;
   height: 72px;
+<<<<<<< HEAD
   padding: 16px 32px;
+=======
+  padding: 16px 48px;
+>>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
   display: flex;
   justify-content: space-between;
   align-items: center;

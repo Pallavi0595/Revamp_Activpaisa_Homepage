@@ -31,11 +31,9 @@
 /* CARDS ROW */
 .cards-container {
   /* background-color: tomato; */
-<<<<<<< HEAD
+
   /* margin-top: 24px; */
-=======
   margin-top: 24px;
->>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,11 +44,8 @@
   overflow-x: auto;
   overflow-y: auto;
   scroll-behavior: smooth;
-<<<<<<< HEAD
   /* padding-bottom: 24px; */
-=======
   padding-bottom: 24px;
->>>>>>> f1e6aaa2b6b4d3807798755d4b0d4503105ef0c2
   height: auto;
 }
 .container::-webkit-scrollbar {
